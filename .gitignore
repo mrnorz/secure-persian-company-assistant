@@ -1,0 +1,12 @@
+__pycache__/
+.venv/
+data/*.pdf
+data/index.json
+data/chunks.json
+data/*.sqlite3
+data/*.npy
+data/_upload.pdf
+data/uploaded.pdf
+.streamlit/secrets.toml
+*.pyc
+.env
