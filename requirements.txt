@@ -1,4 +1,4 @@
-streamlit>=1.39
+streamlit>=1.57
 pypdf>=5.0
 sentence-transformers>=3.0
 numpy>=1.26

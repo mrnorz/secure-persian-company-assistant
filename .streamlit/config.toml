@@ -1,0 +1,47 @@
+[theme]
+base = "light"
+primaryColor = "#087E88"
+backgroundColor = "#F7F9FC"
+secondaryBackgroundColor = "#FFFFFF"
+textColor = "#152C45"
+font = "Vazirmatn"
+headingFont = "Vazirmatn"
+baseFontSize = 16
+headingFontSizes = ["38px", "28px", "22px", "18px", "16px", "14px"]
+headingFontWeights = [700, 700, 700, 700, 700, 700]
+baseRadius = "1rem"
+buttonRadius = "0.75rem"
+borderColor = "#DFE7EF"
+linkColor = "#076F7E"
+codeBackgroundColor = "#EEF3F8"
+showWidgetBorder = true
+showSidebarBorder = false
+paddingTop = "1.5rem"
+paddingBottom = "2rem"
+
+[[theme.fontFaces]]
+family = "Vazirmatn"
+url = "app/static/fonts/Vazirmatn-Regular.ttf"
+weight = 400
+
+[[theme.fontFaces]]
+family = "Vazirmatn"
+url = "app/static/fonts/Vazirmatn-Bold.ttf"
+weight = 700
+
+[theme.sidebar]
+backgroundColor = "#11253B"
+secondaryBackgroundColor = "#1B344D"
+textColor = "#F1F5FA"
+primaryColor = "#167F89"
+borderColor = "#30485F"
+linkColor = "#8ADBD9"
+codeBackgroundColor = "#1B344D"
+paddingTop = "1rem"
+headingFontSizes = ["30px", "24px", "20px", "17px", "15px", "14px"]
+
+[server]
+enableStaticServing = true
+
+[browser]
+gatherUsageStats = false
